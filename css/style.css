@@ -9,12 +9,23 @@ body {
     background-color: #f6f8f9;
 }
 
-header {
+/* Utilities  */
+
+.bg-white {
     background-color: white;
 }
 
-/* Logo */
+#app-main {
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+    padding-bottom: 2rem;
+    border-radius: 8px;
+}
 
+/* Logo */
 .logo-align {
     vertical-align: middle;
 }
@@ -29,5 +40,29 @@ header {
     font-size: 40px;
     font-weight: 900;
     
+}
+
+.buttons {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 300;
+}
+
+#add-task-button {
+    background-color: #47adf1;
+    border: 0;
+    color: white;
+}
+
+#add-section-button {
+    background-color: white;
+    border: 0.5px solid grey;
+    color: grey;
+}
+
+#remove-task-button {
+    background-color: rgb(170, 40, 40);
+    border: 0;
+    color: white
 }
 
