@@ -75,6 +75,36 @@ body {
     color: white
 }
 
+.purple-button {
+    background-color: #9c72e4;
+    border: 0;
+    color: white;
+}
+
+.dark-green-button {
+    background-color: #64c0a9;
+    border: 0;
+    color: white;
+}
+
+.orange-button {
+    background-color: #f29d31;
+    border: 0;
+    color: white;
+}
+
+.fuchsia-button {
+    background-color: #d863a1;
+    border: 0;
+    color: white;
+}
+
+.light-green-button {
+    background-color: #b0c926;
+    border: 0;
+    color: white;
+}
+
 /* Tasks */
 
 #triangle {
@@ -84,7 +114,10 @@ body {
 
 #new-task {
     padding-top: 3rem;
-    padding-bottom: 1.5rem;
+}
+
+.task {
+    padding-bottom: 2rem;
 }
 
 .task-title {
@@ -94,20 +127,34 @@ body {
 
 }
 
-.task-text{
+.task-item{
     margin-left: 5px;
+    padding-bottom: 1rem;
+}
+
+.symbol {
+    font-weight: 700;
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+
 }
 
 .check {
     color: #a0dbcf;
-    font-weight: 700;
-    width: 20px; 
-    height: 20px; 
     border: 2px solid #a0dbcf;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
+}
 
+.cancel {
+    color: #f39994;
+    border: 2px solid #f39994;
+}
+
+.task-item {
+    padding-bottom: 1rem;
 }
 
 
