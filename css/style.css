@@ -15,6 +15,18 @@ body {
     background-color: white;
 }
 
+.va-middle {
+    vertical-align: middle;
+}
+
+.bradius5{
+    border-radius: 5px;
+}
+
+.bradius10{
+    border-radius: 10px;
+}
+
 #app-main {
     width: 70%;
     margin: auto;
@@ -26,9 +38,6 @@ body {
 }
 
 /* Logo */
-.logo-align {
-    vertical-align: middle;
-}
 
 #logo {
     padding-top: 0.7rem;
@@ -42,27 +51,63 @@ body {
     
 }
 
+/* Buttons */
 .buttons {
     padding: 5px 10px;
-    border-radius: 5px;
     font-weight: 300;
 }
 
-#add-task-button {
+.sky-blue-button {
     background-color: #47adf1;
     border: 0;
     color: white;
 }
 
-#add-section-button {
+.white-button {
     background-color: white;
     border: 0.5px solid grey;
     color: grey;
 }
 
-#remove-task-button {
+.red-button {
     background-color: rgb(170, 40, 40);
     border: 0;
     color: white
 }
+
+/* Tasks */
+
+#triangle {
+    font-size: 2rem;
+    vertical-align: middle;
+}
+
+#new-task {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.task-title {
+    font-weight: 700;
+    display: inline-block;
+    color: 434750;
+
+}
+
+.task-text{
+    margin-left: 5px;
+}
+
+.check {
+    color: #a0dbcf;
+    font-weight: 700;
+    width: 20px; 
+    height: 20px; 
+    border: 2px solid #a0dbcf;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+
+}
+
 
