@@ -26,16 +26,17 @@ body {
 .bradius10{
     border-radius: 10px;
 }
-
-#app-main {
+.container {
     width: 70%;
     margin: auto;
     margin-top: 2rem;
     padding-top: 1rem;
     padding-left: 2.5rem;
     padding-bottom: 2rem;
-    border-radius: 8px;
+    border-radius: 8px; 
 }
+
+
 
 /* Logo */
 
