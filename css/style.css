@@ -1,0 +1,24 @@
+/* General rules */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Logo */
+
+#logo {
+    padding-top: 0.7rem;
+    padding-left: 1rem;
+}
+
+#logo-text {
+    font-size: 40px;
+    font-weight: 900;
+    vertical-align: top;
+    
+}
+
