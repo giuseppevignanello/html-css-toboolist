@@ -10,6 +10,10 @@ body {
 
 /* Logo */
 
+.logo-align {
+    vertical-align: middle;
+}
+
 #logo {
     padding-top: 0.7rem;
     padding-left: 1rem;
@@ -18,7 +22,6 @@ body {
 #logo-text {
     font-size: 40px;
     font-weight: 900;
-    vertical-align: top;
     
 }
 
