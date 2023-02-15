@@ -93,7 +93,7 @@ body {
 
 /* Tasks */
 
-#triangle {
+.triangle {
     font-size: 2rem;
     vertical-align: middle;
 }
