@@ -9,6 +9,9 @@ body {
     background-color: #f6f8f9;
 }
 
+li {
+    list-style: none;
+}
 /* Utilities  */
 
 .bg-white {
